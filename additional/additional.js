@@ -22,20 +22,22 @@
 //
 // - Перепишіть конструкцію if з використанням умовного оператора '?':
 
+//
+let a = 8;
+let b = 12;
+let c = 85;
+
+if ((b <= a && a <= c) || (b >= a && a >= c)) {
+    console.log(a)
+
+} else if ((a <= b && b <= c) || (a >= b && b >= c)) {
+    console.log(b);
+} else {
+    console.log(c)
+}
 
 
 
-// let a = prompt();
-// let b = prompt();
-// let c = prompt();
-//
-// if (a > b && a > c) {
-//
-//
-// } else {
-//     result = 'Багато';
-// }
-//
 
 
 
